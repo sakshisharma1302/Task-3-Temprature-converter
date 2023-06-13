@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .main {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgrey;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 30rem;
+}
+.container .main h3 {
+  text-align: center;
+  margin: 1rem 0rem;
+  font-size: 1.7rem;
+}
+.container .main .form-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container .main .form .form-groups {
+  margin: 0.5rem 0rem;
+}
+.container .main .form label {
+  display: block;
+  margin: 0.2rem 0rem;
+  color: #666;
+}
+.container .main .form input, .container .main .form select {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 0.1rem solid lightgrey;
+  font-size: 1.05rem;
+  outline: none;
+}
+.container .main .form-submit {
+  padding: 1rem 0rem;
+}
+.container .main .form-submit button {
+  color: #fff;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
